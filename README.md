@@ -16,3 +16,4 @@ The bucket notification (Terraform object named as 'bucket_notif') send a messag
 ## To be improved
 
 - Add more parameters in the SQS Queue as: Delay, Max Message Size, Message retention
+- Add variables and datasources for provider setup

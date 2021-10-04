@@ -13,12 +13,6 @@ The statement works only for this specific bucket.
 
 The bucket notification (Terraform object named as 'bucket_notif') send a message to 's3_notification_queue'
 
-
-
-
-
-## Diagram
-
 ## To be improved
 
 - Add more parameters in the SQS Queue as: Delay, Max Message Size, Message retention

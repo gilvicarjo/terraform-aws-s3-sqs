@@ -1,9 +1,6 @@
 provider "aws" {
-    region = var.region
-    profile = "aws_keys" 
-    #Must store AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY 
-    #in a profile called 'aws_keys' when setting up "$ aws configure"
-    #Or you can choose the profile name there and change here.
+    region = "Your AWS Zone"
+    profile = "You 'aws configure' profile name" 
 }
 
 resource "aws_sqs_queue" "queue" {
